@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkincareInformation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8b1a58d8a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/ALULL.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Skincare Information</p>
+            <h1><span>Skincare</span> untuk<br>kesehatan kulit</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/retinol.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Retinol Pratista</h1>
+                <p>Sesuai namanya, Pratista Retinol Renewal Serum memiliki kandungan bahan aktif Retinol yang berfungsi untuk mengatasi masalah jerawat, mencegah penuaan dini, mencerahkan kulit, dan membantu mempercepat regenerasi kulit. Kandungan Retinol ini bisa meningkatkan produksi kolagen sehingga kulit tampak lebih kenyal, kencang, dan awet muda.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('ingredients')">Ingredients</p>
+                    <p class="tab-links" onclick="opentab('how to use')">How To Use</p>
+                    <p class="tab-links" onclick="opentab('price')">Price</p>
+                </div>
+            <div class="tab-contents active-tab" id="ingredients">
+                <ul>
+                    <li><span>Ingredients:</span><br>Aqua, Niacinamide, Polysorbate 20, Butylene Glycol, Hydroxypropyl Cyclodextrin, Xylitylglucoside, Anhydroxylitol, Glycerin, Ethoxydiglycol, Phenoxyethanol, Retinol, Allantoin, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Xylitol, Caprylic/Capric Triglyceride, Dimethicone, Aloe Barbandensis Leaf Juice Powder, Cetearyl Dimethicone Crosspolymer, Glucose, Triethanolamine, Disodium Edetate</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="how to use">
+                <ul>
+                    <li><span>How To Use:</span><br>Gunakan retinol sekitar tiga tetes, mungkin Anda beranggapan bahwa semakin banyak jumlah yang dipakai, semakin nyata pula hasilnya. Padahal tidak, semua produk itu sama.
+                        Pastikan memakai Retinol kulit dalam kondisi kering.
+                        Pakai retinol pada malam hari.
+                        Kenali kandungan yang tidak boleh digunakan bersama retinol.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="price">
+                <ul>
+                    <li><span>Price:</span><br>10ml (75k)<br>30ml (139k)</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Basic Skincare</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pump-soap"></i>
+                <h2>Cleanser</h2>
+                <p>Cleanser adalah produk perawatan wajah yang digunakan untuk menghilangkan solekan , sel kulit mati , minyak, kotoran, dan jenis pencemar lain dari kulit wajah.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-jar"></i>
+                <h2>Moisturizer</h2>
+                <p>Moisturizer digunakan mengunci kelembaban kulit dan mencegah kulit kering serta menyeimbangkan pH kulit.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-sun"></i>
+                <h2>Sunscreen</h2>
+                <p>Sunscreen merupakan zat untuk melindungi kulit terhadap paparan sinar matahari, terutama sinar ultraviolet.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portofolio------------ -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">More Skincare</h1>
+        <div class="skin-list">
+            <div class="skin">
+                <img src="image/cosrxmucin.jpg" alt="">
+                <div class="layer">
+                    <h3>Essence</h3>
+                    <p>Essence pada dasarnya merupakan serum dalam bentuk yang lebih cair.</p>
+                    <a href="https://shopee.co.id/COSRX-Advanced-Snail-Mucin-96-Power-Essence-Skin-Care-100-ML-(Esense-wajah-untuk-anti-penuaan)-i.404429429.2957199164?sp_atk=74a573ea-a8f2-4f90-a034-645e2e0cea6a&xptdk=74a573ea-a8f2-4f90-a034-645e2e0cea6a"><i class="fa-solid fa-cart-shopping"></i></i></a>
+                </div>
+            </div>
+            <div class="skin">
+                <img src="image/joseon.jpg" alt="">
+                <div class="layer">
+                    <h3>Serum</h3>
+                    <p>Serum wajah adalah sebotol kecil gel eliksir berwarna jernih, bertekstur ringan, dan bebas minyak.</p>
+                    <a href="https://shopee.co.id/BEAUTY-OF-JOSEON-Calming-Glow-Revive-(Repair)-Glow-Deep-Serum-i.28152485.6440562396?sp_atk=00afdd05-f43c-457e-b836-be33b23864b0&xptdk=00afdd05-f43c-457e-b836-be33b23864b0"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="skin">
+                <img src="image/hatomogi.jpg" alt="">
+                <div class="layer">
+                    <h3>Toner</h3>
+                    <p>Toner merupakan produk perawatan kulit yang bahan utamanya air.</p>
+                    <a href="https://shopee.co.id/Hatomugi-Skin-Conditioner-500Ml-i.186214521.6345097765?sp_atk=fab41b04-d3e4-40e3-8be7-fb68379e5ce5&xptdk=fab41b04-d3e4-40e3-8be7-fb68379e5ce5"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="see-more-btn" class="btn">See more</div>
+    </div>
+</div>
+<!-- ----------portofolio------------ -->
+<div id="portofolio-see-more">
+    <div class="container">
+        <div class="skin-list">
+            <div class="skin">
+                <img src="image/iya.jpg" alt="">
+                <div class="layer">
+                    <h3>Acne Spot</h3>
+                    <p>Acne spot merupakan skincare yang berfungsi sebagai obat totol jerawat yang diklaim mampu meredakan jerawat dengan lebih cepat.</p>
+                    <a href="https://shopee.co.id/COSRX-Advanced-Snail-Mucin-96-Power-Essence-Skin-Care-100-ML-(Esense-wajah-untuk-anti-penuaan)-i.404429429.2957199164?sp_atk=74a573ea-a8f2-4f90-a034-645e2e0cea6a&xptdk=74a573ea-a8f2-4f90-a034-645e2e0cea6a"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="skin">
+                <img src="image/yyy.jpg" alt="">
+                <div class="layer">
+                    <h3>Eye Cream</h3>
+                    <p>Eye cream adalah krim yang diaplikasikan di area bawah mata, dibuat untuk menghilangkan lingkaran hitam di bawah mata.</p>
+                    <a href="https://shopee.co.id/BEAUTY-OF-JOSEON-Calming-Glow-Revive-(Repair)-Glow-Deep-Serum-i.28152485.6440562396?sp_atk=00afdd05-f43c-457e-b836-be33b23864b0&xptdk=00afdd05-f43c-457e-b836-be33b23864b0"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="skin">
+                <img src="image/MY FAVOURITE INNISFREE SHEET MASKS.jpg" alt="">
+                <div class="layer">
+                    <h3>Sheet Mask</h3>
+                    <p>sheet mask adalah masker tisu untuk wajah yang memiliki lubang pada bagian mata, mulut, dan hidung. Sheet mask terbuat dari serat, kapas, selulosa, atau bubur kelapa. Sheet mask hadir dengan cairan dari bahan-bahan yang dapat membuat kulit wajah lebih segar, lembab, dan sehat.</p>
+                    <a href="https://shopee.co.id/Hatomugi-Skin-Conditioner-500Ml-i.186214521.6345097765?sp_atk=fab41b04-d3e4-40e3-8be7-fb68379e5ce5&xptdk=fab41b04-d3e4-40e3-8be7-fb68379e5ce5"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Email: example@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com.think__by.fir?igshid=YnMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@think__by.fir?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="image/Syahrul Firmansyah H Tugas P Yaqin.docx" download class="btn btn2">Download Task</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
